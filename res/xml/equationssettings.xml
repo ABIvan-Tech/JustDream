@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:title="@string/equations_settings">
+
+  <ListPreference android:key="@string/equations_animation_key" 
+      android:title="@string/equations_animation_pref_title" 
+      android:summary="@string/equations_animation_pref_summary" 
+      android:defaultValue="150" 
+      android:entries="@array/equations_in_normal_view" 
+      android:entryValues="@array/equations_in_system_values"/>
+  <CheckBoxPreference android:key="@string/equations_animation_type_key" android:defaultValue="true" android:summary="@string/equations_animation_type_pref_summary" android:title="@string/equations_animation_type_pref_title" android:summaryOff="@string/equations_animation_type_pref_off" android:summaryOn="@string/equations_animation_type_pref_on"/>
+  <CheckBoxPreference android:key="@string/equations_animation_text_key" android:summary="@string/equations_animation_text_pref_summary" android:title="@string/equations_animation_text_pref_title" android:defaultValue="true" android:summaryOff="@string/equations_animation_text_pref_off" android:summaryOn="@string/equations_animation_text_pref_on"/>
+  <CheckBoxPreference android:key="@string/equations_animation_night_key" android:defaultValue="true" android:summaryOff="@string/equations_animation_night_pref_off" android:summaryOn="@string/equations_animation_night_pref_on" android:summary="@string/equations_animation_night_pref_summary" android:title="@string/equations_animation_night_pref_title"/>
+  <PreferenceCategory android:title="@string/equations_notification_icons" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/equations_notification_gmail_key"
+            android:summary="@string/equations_notification_show_unread_gmail_icon"
+            android:title="@string/equations_notification_gmail" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/equations_notification_sms_key"
+            android:summary="@string/equations_notification_show_unread_texts_icon"
+            android:title="@string/equations_notification_sms" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/equations_notification_calls_key"
+            android:summary="@string/equations_notification_show_missed_calls_icon"
+            android:title="@string/equations_notification_calls" />
+   </PreferenceCategory>
+   <Preference
+      android:selectable="false"
+      android:key="@string/equations_animation_about_key"
+      android:title="@string/equations_animation_about_pref_title"
+      />
+
+</PreferenceScreen>

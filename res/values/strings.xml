@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">Equations Dream</string>
+    <string name="equations_settings">Equations settings</string>
+    <string name="equations_animation_key">animation_delay_key</string>
+    <string name="equations_animation_pref_title">Animation Time</string>
+    <string name="equations_animation_pref_summary">Speed of animation (in milliseconds)</string>
+    
+    <string name="equations_animation_type_key">animation_type_key</string>
+    <string name="equations_animation_type_pref_title">Animation Type</string>
+    <string name="equations_animation_type_pref_summary">Which animation will be used</string>   
+    <string name="equations_animation_type_pref_on">Use standart animation (all equations)</string>
+	<string name="equations_animation_type_pref_off">Use random animation (random equation)</string>
+    
+    <string name="equations_animation_text_key">animation_text_key</string>
+    <string name="equations_animation_text_pref_title">Show Text</string> 
+    <string name="equations_animation_text_pref_summary">Show or not text under animations</string>   
+    <string name="equations_animation_text_pref_on">Text is showing</string>
+	<string name="equations_animation_text_pref_off">Text is not showing</string>
+
+	<string name="equations_animation_night_key">animation_night_key</string>
+    <string name="equations_animation_night_pref_title">Night mode</string>
+    <string name="equations_animation_night_pref_summary">Very dim display (for dark rooms)</string>   
+    <string name="equations_animation_night_pref_on">Night mode is on</string>
+	<string name="equations_animation_night_pref_off">Night mode is off</string>
+
+	<string name="equations_animation_about_key">animation_about_key</string>
+    <string name="equations_animation_about_pref_title">About</string>
+
+    <string name="equations_version_name">Programm version</string>
+    <string name="equations_version_code">Code version</string>
+    <string name="equations_version_author">Based on \"Equations for organic motion\" by Justin Windle</string>
+    
+    <string name="equations_version_nocode">Version code not available.</string>
+    <string name="equations_version_noname">Version name not available.</string>
+    
+    <string name="equations_notification_icons">Notification icons</string>
+    <string name="equations_notification_show_unread_gmail_icon">Show unread Gmail notification</string>
+    <string name="equations_notification_gmail">Gmail</string>
+    <string name="equations_notification_gmail_unread">Gmail unread:</string>
+   	<string name="equations_notification_gmail_key">notification_gmail_key</string>
+    
+    <string name="equations_notification_show_unread_texts_icon">Show unread SMS notification</string>
+    <string name="equations_notification_sms">SMS</string>
+    <string name="equations_notification_sms_unread">SMS unread:</string>
+   	<string name="equations_notification_sms_key">notification_missed_sms_key</string>
+    
+    <string name="equations_notification_show_missed_calls_icon">Show missed Calls notification</string>
+    <string name="equations_notification_calls">Calls</string>    		
+	<string name="equations_notification_calls_key">notification_missed_calls_key</string>
+    <string name="equations_notification_calls_unread">Calls missed:</string>
+</resources>
